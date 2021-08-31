@@ -1,0 +1,34 @@
+{
+  "name": "slack-webhook-swagger",
+  "version": "1.0.0",
+  "description": "An app to build small swagger 2.0 descriptors for Salesforce External Services and Slack Workflow Webhooks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dr-paul-coleman/slack-webhook-swagger.git"
+  },
+  "keywords": [
+    "salesforce",
+    "external service",
+    "named credential",
+    "salesforce flow",
+    "webhook",
+    "slack",
+    "workflow"
+  ],
+  "author": "Paul Coleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dr-paul-coleman/slack-webhook-swagger/issues"
+  },
+  "homepage": "https://github.com/dr-paul-coleman/slack-webhook-swagger#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "tiny-json-http": "^7.3.0"
+  }
+}
